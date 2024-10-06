@@ -1,0 +1,78 @@
+<style>
+.nav-link{
+color:blue;
+font-family:cosmic Sans Ms
+}
+
+.dropdown-item{
+
+color:green;
+font-size: 20px;
+font-family: cosmic Sans Ms
+
+}
+
+</style>
+
+
+
+
+
+<nav class="navbar navbar-expand-lg style=:"background-color:#f30c45;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/SportsAcademy/jsp/index.jsp">SportsAcademy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-home"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About us</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">contact us</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Plans</a>
+          <i class="fas fa-home"style="color:black"></i>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/SportsAcademy/jsp/transport.jsp">Transportation</a></li>
+            <li><a class="dropdown-item" href="/SportsAcademy/jsp/cafeteria.jsp">cafeteria<i class ="fas fa-hamburger"></i></a></li>
+             <li><a class="dropdown-item" href="/SportsAcademy/jsp/fitness.jsp">Fitness Club</a></li>
+           <!--  <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          </ul>
+        </li>
+        
+              <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Member
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/SportsAcademy/member/member_registration.jsp">Registration</a></li>
+            <li><a class="dropdown-item" href="/SportsAcademy/member/member_login.jsp">Login</a></li>
+             <li><a class="dropdown-item" href="/SportsAcademy/member/memberFeedback.jsp">Feedback</a></li>
+           <!--  <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          </ul>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>

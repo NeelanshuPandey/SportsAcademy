@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sports Events</title>
+</head>
+<style>
+
+.flex-container{
+display:flex;
+width:100%;
+height:300px;
+background:green;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+
+}
+.box-flex{
+
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+gap:20px;
+
+}
+.flex-contain{
+display:flex;
+width:50%;
+height:500px;
+background:yellow;
+flex-direction:column;
+ flex-wrap:wrap; 
+margin-top:25px;
+}
+
+.box img{
+display:flex;
+flex-direction:column;
+margin-left:0px;
+border: 0px;
+width:50%;
+height:35%;
+transition:transform 0.5s;
+margin-top:10px;
+/* flex:wrap; */
+margin-left:25%;
+border-radius: 5%;
+}
+
+.box img:hover{
+transform:scale(1.1)
+}
+.flex-contain1{
+display:flex;
+width:50%;
+height:500px;
+background:yellow;
+flex-direction:row;
+flex-wrap:wrap;
+margin-top:25px;
+
+}
+.div-edit{
+display:flex;
+flex-direction: row
+
+}
+
+
+</style>
+
+<body>
+<div style="width:100%;height:40px;background-color:red">
+<h1 style="text-align:center"><b>SPORTS EVENTS</b></h1>
+</div>
+<div class="flex-container box-fle">
+
+<!-- <div class=" box-flex"> -->
+
+<img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT463Cx-B6tOsgyiDFlBsGFzVyOWbbpQC2wEQ&s">
+<img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4GcfUYFz7hj0GBxtoIhSGVrHF-C0qOx6EqQ&s" style="margin-left:20px">
+
+<img alt="" src="https://images.mykhel.com/webp/fit-in/300x170/img/2024/09/carlo-ancelotti-real-madrid-1200-1725716008.jpg" style="margin-left: 20px">
+
+</div>
+
+<div class="div-edit">
+<div class="flex-contain box img"style= "flex-wrap:wrap">
+<h1 style="text-align: center;text-shadow: 5px"> 	SPONSERED BY  </h1>
+
+<img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRntNIRlxaTeR6-c6czB9d5tiLrnDbA2LOPaw&s">
+<img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi8GebIcQADJebIhxQ3OGn39vmrGxsg3IXyQ&s">
+</div>
+<div class="flex-contain1">
+
+<iframe width="200" height="230" src="https://www.youtube.com/embed/JnzgeLfEVbE?si=C8sE2WclOkYnElgR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<video src="/SportsAcademy/videos/15172075-sd_360_640_30fps.mp4" style=" width:60%;height:227px"></video>
+
+</div>
+</div>
+</body>
+</html>
